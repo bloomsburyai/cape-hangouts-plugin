@@ -3,8 +3,8 @@ import re
 from collections import deque
 from hashlib import sha256
 
-from external_integration_hangouts.hangouts_settings import URL_BASE, hangouts_verification
-from external_integration_hangouts.hangouts_settings import hangouts_event_endpoints
+from cape_hangouts_plugin.hangouts_settings import URL_BASE, hangouts_verification
+from cape_hangouts_plugin.hangouts_settings import hangouts_event_endpoints
 from webservices.bots_common.utils import process_action
 from webservices.app.app_middleware import respond_with_plain_json, requires_auth
 from logging import debug, warning
